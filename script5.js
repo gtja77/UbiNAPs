@@ -27,7 +27,7 @@ var allNAPs = []; // Almacena todos los marcadores para búsquedas
 
 // Iconos personalizados
 var icon1_8 = L.icon({
-    iconUrl: '/icon/nap8.png',
+    iconUrl: 'nap8.png',
     iconSize: [25, 25],
     iconAnchor: [12, 12],
     popupAnchor: [1, -34],
@@ -36,7 +36,7 @@ var icon1_8 = L.icon({
 });
 
 var icon1_16 = L.icon({
-    iconUrl: '/icon/nap16.png',
+    iconUrl: 'nap16.png',
     iconSize: [25, 25],
     iconAnchor: [12, 12],
     popupAnchor: [1, -34],
@@ -163,4 +163,5 @@ L.Control.geocoder({
         item.marker.openPopup();
     });
 })
+
 .addTo(map);
